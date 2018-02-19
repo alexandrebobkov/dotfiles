@@ -22,12 +22,9 @@ if ! zplug check --verbose; then
     printf "Install? [y/N]: "
     if read -q; then
         echo; zplug install
+        chmod 755 -R ~/.zplug # Issue with permissions
     fi
 fi
 
-chmod 755 -R ~/.zplug # Issue with permissions
-
 # Then, source plugins and add commands to $PATH
 zplug load
-
-alias ls=colorls
