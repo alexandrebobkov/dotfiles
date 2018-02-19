@@ -21,3 +21,4 @@ path_remove '/mnt/c/Program Files (x86)/Python27'
 export npm_config_platform="win32"
 
 alias config='/usr/bin/git --git-dir=${HOME}/.cfg/ --work-tree=${HOME}'
+alias ls=colorls
