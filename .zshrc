@@ -8,6 +8,7 @@ SAVEHIST=30
 HISTFILE=~/.zsh_history
 
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
+zstyle ':completion:*:*:*:*:*' menu yes select
 
 source ~/.zplug/init.zsh
 
