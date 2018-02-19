@@ -18,4 +18,6 @@ path_remove '/mnt/c/Program Files/nodejs'
 path_remove '/mnt/c/OpenSSL-Win32/bin'
 path_remove '/mnt/c/Program Files (x86)/Python27'
 
+export npm_config_platform="win32"
+
 alias config='/usr/bin/git --git-dir=${HOME}/.cfg/ --work-tree=${HOME}'
