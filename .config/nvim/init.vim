@@ -7,14 +7,13 @@ Plug 'mattn/emmet-vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'godlygeek/tabular'
 Plug 'vim-airline/vim-airline'
-Plug 'ayu-theme/ayu-vim'
+Plug 'drewtempelmeyer/palenight.vim'
 
 call plug#end()
 
 syntax on
 set background=dark
-let ayucolor="dark"
-colorscheme ayu
+colorscheme palenight
 
 set backspace=indent,eol,start
 set nocompatible
