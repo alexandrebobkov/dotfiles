@@ -1,6 +1,6 @@
 source ~/.utilcfg
 source ~/.npmcfg
-source ~/.dockercfg
+source ~/._dockercfg
 
 unsetopt BG_NICE # Issue with WSL and nice
 
