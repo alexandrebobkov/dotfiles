@@ -4,7 +4,12 @@ source ~/.npmcfg
 SAVEHIST=30
 HISTFILE=~/.zsh_history
 
+eval $(dircolors -b $HOME/.dircolors)
+
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}  
+
+alias ls='ls --color=auto'
 
 source ~/.zplug/init.zsh
 
