@@ -12,6 +12,13 @@ set fish_color_autosuggestion   969896
 
 alias config "/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
+if type -q hub
+  alias git "hub"
+end
+if type -q exa
+  alias ls "exa"
+end
+
 set -x NPM_PACKAGES $HOME/.npm-packages
 set -x PATH $NPM_PACKAGES/bin $PATH
 set -x MANPATH $NPM_PACKAGES/share/man (manpath)
