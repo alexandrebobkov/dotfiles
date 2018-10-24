@@ -7,8 +7,9 @@ call plug#begin('~/.vim/plugged')
 
 let g:lightline = {'colorscheme': 'one'}
 Plug 'itchyny/lightline.vim'
-
 Plug 'dracula/vim', { 'as': 'dracula' }
+
+Plug 'leafgarland/typescript-vim'
 
 " Initialize plugin system
 call plug#end()
