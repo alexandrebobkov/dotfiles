@@ -1,7 +1,7 @@
-[user]
-	email = dougmaitelli@gmail.com
-	name = Douglas Maitelli
-[push]
-  default = simple
 [color]
   ui = auto
+[user]
+  email = dougmaitelli@gmail.com
+  name = Douglas Maitelli
+[push]
+  default = simple
