@@ -21,4 +21,4 @@ if [ $? = 0 ]; then
     config checkout
 fi;
 config config status.showUntrackedFiles no
-config ls-files --deleted -z | config update-index --assume-unchanged -z README.md setup.sh
+config update-index --assume-unchanged -z README.md setup.sh
