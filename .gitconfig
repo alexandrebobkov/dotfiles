@@ -2,4 +2,6 @@
 	email = dougmaitelli@gmail.com
 	name = Douglas Maitelli
 [push]
-	default = simple
+  default = simple
+[color]
+  ui = auto
