@@ -1,0 +1,20 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.fontFamily": "'Inconsolata', Consolas, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "terminal.integrated.fontFamily": "'Inconsolata'",
+  "workbench.colorTheme": "An Old Hope",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "git.confirmSync": false,
+  "window.titleBarStyle": "custom",
+  "editor.fontSize": 16,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "breadcrumbs.enabled": true,
+  "files.associations": {
+    ".env*": "shellscript"
+  }
+}
