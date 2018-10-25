@@ -7,7 +7,7 @@ call plug#begin('~/.vim/plugged')
 
 let g:lightline = {'colorscheme': 'one'}
 Plug 'itchyny/lightline.vim'
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'j\-tom/vim-old-hope'
 
 Plug 'leafgarland/typescript-vim'
 
@@ -22,7 +22,7 @@ set nocompatible
 
 " Turn on syntax highlighting.
 syntax on
-color dracula
+color old-hope
 
 " Turn off modelines
 set modelines=0
