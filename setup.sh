@@ -21,5 +21,4 @@ if [ $? = 0 ]; then
     config checkout
 fi;
 config config status.showUntrackedFiles no
-rm -rf ~/.README.md
-config ls-files --deleted -z | config update-index --assume-unchanged -z --stdin
+config ls-files --deleted -z | config update-index --assume-unchanged -z README.md setup.sh
