@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Install Vim Plug
+echo "Installing Vim Plug"
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 # Setting up dotfiles
 echo "Setting up dotfiles"
 git clone --bare https://github.com/dougmaitelli/dotfiles.git $HOME/.cfg
