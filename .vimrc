@@ -5,14 +5,43 @@ call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
 
-let g:lightline = {'colorscheme': 'one'}
-Plug 'itchyny/lightline.vim'
-Plug 'j\-tom/vim-old-hope'
+let g:lightline = {
+      \ 'colorscheme': 'powerline',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ], [ 'fugitive' ], [ 'filename' ] ],
+      \   'right': [ [ 'syntastic', 'lineinfo' ], [ 'filetype' ] ]
+      \ },
+      \ 'component': {
+      \   'fugitive': '%{&filetype=="help"?"":exists("*fugitive#head")?"\uE0A0 ".fugitive#head():""}',
+      \ },
+      \ 'component_visible_condition': {
+      \   'fugitive': '(&filetype!="help"&&exists("*fugitive#head") && ""!=fugitive#head())',
+      \ },
+      \ 'component_expand': {
+      \   'syntastic': 'SyntasticStatuslineFlag',
+      \ },
+      \ 'component_type': {
+      \   'syntastic': 'error',
+      \ },
+      \ 'separator': { 'left': "\uE0B0", 'right': "\uE0B2" },
+      \ 'subseparator': { 'left': "\uE0B1", 'right': "\uE0B3" },
+      \ }
 
+Plug 'https://github.com/j-tom/vim-old-hope'
+Plug 'itchyny/lightline.vim'
+
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-syntastic/syntastic'
+Plug 'majutsushi/tagbar'
 Plug 'leafgarland/typescript-vim'
 
 " Initialize plugin system
 call plug#end()
+
+if (has("termguicolors"))
+  set termguicolors
+endif
 
 set background=dark
 set mouse=a     " Enable mouse usage (all modes)
