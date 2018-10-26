@@ -39,10 +39,6 @@ Plug 'leafgarland/typescript-vim'
 " Initialize plugin system
 call plug#end()
 
-if (has("termguicolors"))
-  set termguicolors
-endif
-
 set background=dark
 set mouse=a     " Enable mouse usage (all modes)
 
