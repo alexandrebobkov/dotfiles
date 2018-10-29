@@ -7,20 +7,21 @@ if type -q firefox-developer-edition
 end
 
 set fish_color_command        78BD65
-set fish_color_param          eeeeee
-set fish_color_quote          ffff00
+set fish_color_param          EEEEEE
+set fish_color_quote          E5CD52
 set fish_color_redirection    4FB3D8
 set fish_color_end            C678DD
-set fish_color_error          BF4040
-set fish_color_comment        EF7C2A
+set fish_color_error          EB3D54
+set fish_color_comment        686B78
 set fish_color_autosuggestion 888A85
 
-set fish_color_selection --bacground=green
-set fish_color_search_match --background=green
+set fish_color_selection --bacground=2F3137
+set fish_color_search_match --background=2F3137
 
+set -g theme_color_scheme terminal-dark
 set -g theme_nerd_fonts yes
 set -g theme_display_date no
-set -g theme_newline_cursor yes
+set -g theme_newline_cursor clean
 
 alias config "/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
