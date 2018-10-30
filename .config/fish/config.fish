@@ -28,8 +28,13 @@ alias config "/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 if type -q hub
   alias git "hub"
 end
+
 if type -q exa
   alias ls "exa"
+end
+
+if type -q docker
+  alias docklear "docker ps --filter 'status=exited' --filter 'status=created' | grep 'days ago\|weeks ago' | awk '{print $1}' | xargs --no-run-if-empty docker rm"
 end
 
 set -x NPM_PACKAGES $HOME/.npm-packages
