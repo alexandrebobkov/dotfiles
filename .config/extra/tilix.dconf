@@ -1,0 +1,23 @@
+[profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+foreground-color='#ABABB2B2BFBF'
+visible-name='Default'
+palette=['#1C1C1C1C2121', '#EBEB3D3D5353', '#7878BDBD6565', '#EFEF7C7C2A2A', '#4F4FB3B3D8D8', '#C6C67878DDDD', '#5656B6B6C2C2', '#88888A8A8585', '#68686A6A7878', '#EBEB3D3D5353', '#7878BDBD6565', '#EFEF7C7C2A2A', '#4F4FB3B3D8D8', '#C6C67878DDDD', '#5656B6B6C2C2', '#88888A8A8585']
+badge-color-set=false
+use-system-font=false
+cursor-colors-set=false
+highlight-colors-set=false
+use-theme-colors=true
+bold-color-set=false
+font='Inconsolata Nerd Font Medium 12'
+background-color='#272728282222'
+background-transparency-percent=19
+dim-transparency-percent=0
+
+[/]
+quake-specific-monitor=0
+copy-on-select=true
+terminal-title-style='none'
+theme-variant='dark'
+use-tabs=true
+warn-vte-config-issue=false
+window-style='normal'
