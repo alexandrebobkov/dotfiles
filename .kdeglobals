@@ -111,7 +111,11 @@ Size=32
 [General]
 ColorScheme=Breeze Dark
 Name=Breeze Dark
+font=Inconsolata,10,-1,5,50,0,0,0,0,0
+menuFont=Inconsolata,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
+smallestReadableFont=Inconsolata,8,-1,5,50,0,0,0,0,0
+toolBarFont=Inconsolata,9,-1,5,50,0,0,0,0,0
 widgetStyle=breeze
 
 [Icons]
