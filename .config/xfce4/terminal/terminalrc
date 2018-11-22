@@ -1,0 +1,25 @@
+[Configuration]
+FontName=Inconsolata Nerd Font Medium 12
+MiscAlwaysShowTabs=FALSE
+MiscBell=FALSE
+MiscBordersDefault=TRUE
+MiscCursorBlinks=TRUE
+MiscCursorShape=TERMINAL_CURSOR_SHAPE_BLOCK
+MiscDefaultGeometry=80x24
+MiscInheritGeometry=FALSE
+MiscMenubarDefault=FALSE
+MiscMouseAutohide=FALSE
+MiscToolbarDefault=FALSE
+MiscConfirmClose=TRUE
+MiscCycleTabs=TRUE
+MiscTabCloseButtons=TRUE
+MiscTabCloseMiddleClick=TRUE
+MiscTabPosition=GTK_POS_TOP
+MiscHighlightUrls=TRUE
+MiscScrollAlternateScreen=TRUE
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+BackgroundDarkness=0.750000
+ColorForeground=#cbcbcdcdd2d2
+ColorBackground=#1c1c1c1c2121
+ColorPalette=#1c1c1c1c2121;#ebeb3d3d5353;#7878bdbd6565;#efef7c7c2a2a;#4f4fb3b3d8d8;#c6c67878dddd;#5656b6b6c2c2;#ababb2b2bfbf;#1c1c1c1c2121;#ebeb3d3d5353;#7878bdbd6565;#efef7c7c2a2a;#4f4fb3b3d8d8;#c6c67878dddd;#5656b6b6c2c2;#ababb2b2bfbf
+
