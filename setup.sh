@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Install Fisher
+echo "Installing Fisher"
+curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+
+# Install Fish Theme
+echo "Installing Fish Theme"
+fisher add oh-my-fish/theme-bobthefish
+
 # Install Vim Plug
 echo "Installing Vim Plug"
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
