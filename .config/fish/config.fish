@@ -18,7 +18,7 @@ set fish_color_autosuggestion 888A85
 set fish_color_selection --bacground=2F3137
 set fish_color_search_match --background=2F3137
 
-set -g theme_color_scheme terminal-dark
+set -g theme_color_scheme dark
 set -g theme_nerd_fonts yes
 set -g theme_display_date no
 set -g theme_newline_cursor clean

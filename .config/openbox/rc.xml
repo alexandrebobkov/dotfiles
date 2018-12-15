@@ -52,39 +52,39 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>sans</name>
+      <name>Inconsolata</name>
       <size>10</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>sans</name>
+      <name>Inconsolata</name>
       <size>10</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>sans</name>
+      <name>Inconsolata</name>
       <size>10</size>
       <!-- font size in points -->
-      <weight>normal</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>sans</name>
+      <name>Inconsolata</name>
       <size>10</size>
       <!-- font size in points -->
-      <weight>normal</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="OnScreenDisplay">
@@ -97,16 +97,16 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Sans</name>
+      <name>Inconsolata</name>
       <size>8</size>
-      <weight/>
-      <slant/>
+      <weight>Normal</weight>
+      <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Sans</name>
+      <name>Inconsolata</name>
       <size>8</size>
-      <weight/>
-      <slant/>
+      <weight>Normal</weight>
+      <slant>Normal</slant>
     </font>
   </theme>
   <desktops>
@@ -212,6 +212,16 @@
       <action name="PreviousWindow"/>
     </keybind>
     <!-- Keybindings for running applications -->
+    <keybind key="W-t">
+      <action name="Execute">
+        <command>~/.config/openbox/urxvtc</command>
+      </action>
+    </keybind>
+    <keybind key="W-grave">
+      <action name="Execute">
+        <execute>~/.config/openbox/urxvtq</execute>
+      </action>
+    </keybind>
     <keybind key="W-r">
       <action name="Execute">
         <command>lxpanelctl run</command>
@@ -615,5 +625,17 @@
 
   # end of the example
 -->
+   <application name="urxvtq">
+      <decor>no</decor>
+      <position force="yes">
+        <x>center</x>
+        <y>0</y>
+      </position>
+      <desktop>all</desktop>
+      <layer>above</layer>
+      <skip_pager>yes</skip_pager>
+      <skip_taskbar>yes</skip_taskbar>
+      <maximized>Horizontal</maximized>
+    </application>
   </applications>
 </openbox_config>
