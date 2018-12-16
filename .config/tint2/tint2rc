@@ -10,11 +10,11 @@
 rounded = 0
 border_width = 0
 border_sides = TBLR
-background_color = #222222 30
+background_color = #222222 20
 border_color = #000000 0
-background_color_hover = #222222 30
+background_color_hover = #222222 20
 border_color_hover = #000000 0
-background_color_pressed = #222222 30
+background_color_pressed = #222222 20
 border_color_pressed = #000000 0
 
 # Background 2: Active task
@@ -74,24 +74,24 @@ border_color_pressed = #00A9FF 80
 
 # Background 7: Tooltip
 rounded = 0
-border_width = 1
+border_width = 2
 border_sides = TBLR
-background_color = #000000 80
-border_color = #EF5350 80
-background_color_hover = #000000 80
-border_color_hover = #EF5350 80
-background_color_pressed = #000000 80
-border_color_pressed = #000000 80
+background_color = #000000 50
+border_color = #222222 30
+background_color_hover = #000000 50
+border_color_hover = #222222 30
+background_color_pressed = #000000 50
+border_color_pressed = #222222 30
 
 # Background 8: Systray, Bat, Clock
 rounded = 0
 border_width = 0
 border_sides = B
-background_color = #222222 60
+background_color = #FF9191 20
 border_color = #000000 0
-background_color_hover = #222222 60
+background_color_hover = #FF9191 20
 border_color_hover = #000000 0
-background_color_pressed = #222222 60
+background_color_pressed = #FF9191 20
 border_color_pressed = #000000 0
 
 #---------------------------------------------
@@ -159,7 +159,7 @@ task_active_icon_asb = 100 0 0
 # TOOLTIPS
 #---------------------------------------------
 tooltip = 1
-tooltip_padding = 0 0
+tooltip_padding = 5 5
 tooltip_show_timeout = 0
 tooltip_hide_timeout = 0
 tooltip_background_id = 7
@@ -170,7 +170,7 @@ tooltip_font_color = #FFFFFF 60
 # SYSTRAYBAR
 #---------------------------------------------
 systray = 1
-systray_padding = 0 7 0
+systray_padding = 3 7 0
 systray_background_id = 8
 systray_sort = ascending
 
@@ -195,7 +195,7 @@ time1_font = sans 12
 time2_format = %d/%m%Y
 time2_font = sans 8
 clock_font_color = #FFFFFF 60
-clock_padding = 3 3
+clock_padding = 5 5
 clock_background_id = 8
 clock_tooltip = %A %d %B %Y
 #clock_lclick_command = x-terminal-emulator -e alsamixer

@@ -37,7 +37,7 @@
     <primaryMonitor/>
   </placement>
   <theme>
-    <name>Arc-Clone</name>
+    <name>Numix-Clone</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -625,7 +625,7 @@
 
   # end of the example
 -->
-   <application name="urxvtq">
+    <application name="urxvtq">
       <decor>no</decor>
       <position force="yes">
         <x>center</x>

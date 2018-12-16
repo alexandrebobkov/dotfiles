@@ -1,11 +1,11 @@
 ! special
 *.foreground:   #cbcdd2
-*.background:   [75]#1c1d21
-*.cursorColor:  #cbcdd2
+*.background:   [70]#1c1d21
+*.cursorColor:  #d6d8db
 
 ! black
 *.color0:       #1c1d21 
-*.color8:       #1c1d21
+*.color8:       #babcc4
 
 ! red
 *.color1:       #eb3d54
@@ -52,10 +52,10 @@ XTerm*geometry: 80x25
 
 URxvt.iconName:          urxvt
 URxvt.iconFile:          /usr/share/icons/Papirus-Dark/48x48/apps/urxvt.svg
-URxvt.internalBorder:    1
+URxvt.internalBorder:    3
 URxvt.externalBorder:    1
 !URxvt.lineSpace:        0
-!urxvt*shading:          30
+!URxvt*shading:          30
 URxvt.depth:             32
 URxvt.saveLines:         10000
 URxvt*geometry:          80x25
@@ -105,34 +105,12 @@ URxvt.iso14755:            false
 URxvt.iso14755_52:         false
 
 !! Cursor
+URxvt.cursorBlink:         1
 URxvt.colorUL:             #83a598
 Xcursor.theme:             La Captaine
 
 !! Pointer
 !URxvt.pointerBlank: true
-
-! transparency percentage
-!100% - FF
-!95% - F2
-!90% - E6
-!85% - D9
-!80% - CC
-!75% - BF
-!70% - B3
-!65% - A6
-!60% - 99
-!55% - 8C
-!50% - 80
-!45% - 73
-!40% - 66
-!35% - 59
-!30% - 4D
-!25% - 40
-!20% - 33
-!15% - 26
-!10% - 1A
-!5% - 0D
-!0% - 00
 
 rofi.color-enabled: true
 rofi.color-window: #4d32302f, #4d32302f, #0032302f
