@@ -19,35 +19,35 @@ border_color_pressed = #000000 0
 
 # Background 2: Active task
 rounded = 0
-border_width = 2
+border_width = 0
 border_sides = B
-background_color = #000000 0
+background_color = #EF5350 20
 border_color = #EF5350 80
-background_color_hover = #000000 30
+background_color_hover = #EF5350 30
 border_color_hover = #EF5350 90
-background_color_pressed = #000000 50
+background_color_pressed = #EF5350 50
 border_color_pressed = #EF5350 100
 
 # Background 3: Default task, Iconified task
 rounded = 0
-border_width = 2
+border_width = 0
 border_sides = B
-background_color = #000000 0
+background_color = #FFFFFF 0
 border_color = #FFFFFF 20
-background_color_hover = #000000 20
+background_color_hover = #FFFFFF 30
 border_color_hover = #FFFFFF 50
-background_color_pressed = #000000 40
+background_color_pressed = #FFFFFF 50
 border_color_pressed = #FFFFFF 80
 
 # Background 4: Urgent task
 rounded = 0
-border_width = 2
+border_width = 0
 border_sides = B
-background_color = #000000 0
+background_color = #00A9FF 20
 border_color = #00A9FF 80
-background_color_hover = #000000 20
+background_color_hover = #00A9FF 30
 border_color_hover = #00A9FF 100
-background_color_pressed = #000000 60
+background_color_pressed = #00A9FF 50
 border_color_pressed = #00A9FF 100
 
 # Background 5: Inactive taskbar
