@@ -6,14 +6,21 @@
 - [vim-plug](https://github.com/junegunn/vim-plug)
 
 ## Contains dotfiles for
-- [fish](https://github.com/fish-shell/fish-shell)
-- xfce
+- openbox
+- tint2
 - [Compton](https://github.com/chjj/compton)
+- URxvt
+- [fish](https://github.com/fish-shell/fish-shell)
 - vim
+- volti
 
 ## Requirements
 - git
 - [fish](https://github.com/fish-shell/fish-shell)
+
+### Recommended to Install
+- Shutter
+- volti
 
 ### Recommended Fonts
 - [Inconsolata Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Inconsolata/complete)
