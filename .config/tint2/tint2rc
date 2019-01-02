@@ -179,12 +179,12 @@ systray_sort = ascending
 #---------------------------------------------
 battery = 1
 battery_low_status = 10
-battery_low_cmd = notify-send "battery low"
+battery_low_cmd = notify-send "Battery Low"
 battery_hide = 98
 bat1_font = sans 8
 bat2_font = sans 8
 battery_font_color = #FFFFFF 60
-battery_padding = 2 2
+battery_padding = 5 5
 battery_background_id = 8
 
 #---------------------------------------------

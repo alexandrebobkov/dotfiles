@@ -37,7 +37,7 @@
     <primaryMonitor/>
   </placement>
   <theme>
-    <name>Numix-Clone</name>
+    <name>MyDark</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -182,25 +182,20 @@
     </keybind>
     <keybind key="W-Left">
       <action name="UnmaximizeFull"/>
+      <action name="MaximizeVert"/>
       <action name="MoveResizeTo">
-        <x>0</x>
-        <y>0</y>
         <width>50%</width>
-        <height>100%</height>
       </action>
+      <action name="MoveToEdge"><direction>west</direction></action>
     </keybind>
     <keybind key="W-Right">
       <action name="UnmaximizeFull"/>
+      <action name="MaximizeVert"/>
       <action name="MoveResizeTo">
-        <x>1/2</x>
-        <y>0</y>
         <width>50%</width>
-        <height>100%</height>
       </action>
-    </keybind>
-    <keybind key="W-Down">
-      <action name="Iconify"/>
-    </keybind>
+      <action name="MoveToEdge"><direction>east</direction></action>
+    </keybind>    
     <keybind key="W-Up">
       <action name="Maximize"/>
     </keybind>
@@ -263,11 +258,6 @@
       <mousebind button="A-Right" action="Drag">
         <action name="Resize"/>
       </mousebind>
-      <mousebind button="A-Middle" action="Press">
-        <action name="Lower"/>
-        <action name="FocusToBottom"/>
-        <action name="Unfocus"/>
-      </mousebind>
     </context>
     <context name="Titlebar">
       <mousebind button="Left" action="Press">
@@ -279,21 +269,6 @@
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
         <action name="ToggleMaximizeFull"/>
-      </mousebind>
-      <mousebind button="Middle" action="Press">
-        <action name="Lower"/>
-        <action name="FocusToBottom"/>
-        <action name="Unfocus"/>
-      </mousebind>
-      <mousebind button="Up" action="Click">
-        <action name="Shade"/>
-        <action name="FocusToBottom"/>
-        <action name="Unfocus"/>
-        <action name="Lower"/>
-      </mousebind>
-      <mousebind button="Down" action="Click">
-        <action name="Unshade"/>
-        <action name="Raise"/>
       </mousebind>
       <mousebind button="Right" action="Press">
         <action name="Focus"/>
@@ -494,24 +469,6 @@
       </mousebind>
     </context>
     <context name="Desktop">
-      <mousebind button="Up" action="Click">
-        <action name="DesktopPrevious"/>
-      </mousebind>
-      <mousebind button="Down" action="Click">
-        <action name="DesktopNext"/>
-      </mousebind>
-      <mousebind button="A-Up" action="Click">
-        <action name="DesktopPrevious"/>
-      </mousebind>
-      <mousebind button="A-Down" action="Click">
-        <action name="DesktopNext"/>
-      </mousebind>
-      <mousebind button="C-A-Up" action="Click">
-        <action name="DesktopPrevious"/>
-      </mousebind>
-      <mousebind button="C-A-Down" action="Click">
-        <action name="DesktopNext"/>
-      </mousebind>
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
@@ -523,11 +480,6 @@
     </context>
     <context name="Root">
       <!-- Menus -->
-      <mousebind button="Middle" action="Press">
-        <action name="ShowMenu">
-          <menu>client-list-combined-menu</menu>
-        </action>
-      </mousebind>
       <mousebind button="Right" action="Press">
         <action name="ShowMenu">
           <menu>root-menu</menu>
