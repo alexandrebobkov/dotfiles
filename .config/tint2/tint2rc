@@ -8,25 +8,25 @@
 
 # Background 1: Panel
 rounded = 0
-border_width = 0
+border_width = 2
 border_sides = TBLR
-background_color = #222222 20
-border_color = #000000 0
-background_color_hover = #222222 20
-border_color_hover = #000000 0
-background_color_pressed = #222222 20
-border_color_pressed = #000000 0
+background_color = #1C1D21 20
+border_color = #222222 30
+background_color_hover = #1C1D21 20
+border_color_hover = #222222 30
+background_color_pressed = #1C1D21 20
+border_color_pressed = #222222 30
 
 # Background 2: Active task
 rounded = 0
 border_width = 0
 border_sides = B
-background_color = #EF5350 20
-border_color = #EF5350 80
-background_color_hover = #EF5350 30
-border_color_hover = #EF5350 90
-background_color_pressed = #EF5350 50
-border_color_pressed = #EF5350 100
+background_color = #F0544C 30
+border_color = #F0544C 80
+background_color_hover = #F0544C 50
+border_color_hover = #F0544C 90
+background_color_pressed = #F0544C 70
+border_color_pressed = #F0544C 100
 
 # Background 3: Default task, Iconified task
 rounded = 0
@@ -43,11 +43,11 @@ border_color_pressed = #FFFFFF 80
 rounded = 0
 border_width = 0
 border_sides = B
-background_color = #00A9FF 20
+background_color = #00A9FF 30
 border_color = #00A9FF 80
-background_color_hover = #00A9FF 30
+background_color_hover = #00A9FF 50
 border_color_hover = #00A9FF 100
-background_color_pressed = #00A9FF 50
+background_color_pressed = #00A9FF 70
 border_color_pressed = #00A9FF 100
 
 # Background 5: Inactive taskbar
@@ -87,11 +87,11 @@ border_color_pressed = #222222 30
 rounded = 0
 border_width = 0
 border_sides = B
-background_color = #FF9191 20
+background_color = #F0544C 30
 border_color = #000000 0
-background_color_hover = #FF9191 20
+background_color_hover = #F0544C 30
 border_color_hover = #000000 0
-background_color_pressed = #FF9191 20
+background_color_pressed = #F0544C 30
 border_color_pressed = #000000 0
 
 #---------------------------------------------
@@ -192,7 +192,7 @@ battery_background_id = 8
 #---------------------------------------------
 time1_format = %H:%M
 time1_font = sans 12
-time2_format = %d/%m%Y
+time2_format = %d/%m/%Y
 time2_font = sans 8
 clock_font_color = #FFFFFF 60
 clock_padding = 5 5
