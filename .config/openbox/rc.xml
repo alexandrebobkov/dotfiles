@@ -602,9 +602,10 @@
       <skip_taskbar>yes</skip_taskbar>
       <maximized>Horizontal</maximized>
     </application>
+    <application role="browser">
+      <maximized>true</maximized>
+      <decor>no</decor>
+    </application>
   </applications>
-  <application class="Firefox">
-    <decor>no</decor>
-  </application>
 </openbox_config>
 
