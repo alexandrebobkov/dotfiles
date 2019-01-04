@@ -219,10 +219,13 @@
     </keybind>
     <keybind key="W-r">
       <action name="Execute">
-        <command>lxpanelctl run</command>
+        <command>rofi -show run</command>
       </action>
     </keybind>
     <!-- Other -->
+    <keybind key="W-b">
+      <action name="ToggleDecorations"/>
+    </keybind>
     <keybind key="F11">
       <action name="ToggleFullscreen"/>
     </keybind>
@@ -595,4 +598,8 @@
       <maximized>Horizontal</maximized>
     </application>
   </applications>
+  <application class="Firefox">
+    <decor>no</decor>
+  </application>
 </openbox_config>
+

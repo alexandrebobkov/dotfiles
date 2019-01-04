@@ -46,7 +46,7 @@ Xft.lcdfilter: lcddefault
 !XTerm*background: bg_color
 !XTerm*foreground: fg_color
 !XTerm*pointerColor: cursor_color
-XTerm*faceName: Inconsolata Nerd Font:Regular
+XTerm*faceName: Inconsolata Nerd Font:Medium
 XTerm*faceSize: 10
 XTerm*geometry: 80x25
 
@@ -73,12 +73,12 @@ URxvt*transparent: false
 
 !! Fonts
 
-URxvt*font:              xft:Inconsolata Nerd Font:Regular:size=12
+URxvt*font:              xft:Inconsolata Nerd Font Mono:size=12:minspace=False
 !URxvt*boldFont:          xft:Inconsolata Nerd Font:Bold:size=12
 !URxvt*italicFont:        xft:Inconsolata Nerd Font:Regular:size=12
 !URxvt*boldItalicFont:    xft:Inconsolata Nerd Font:Regular:size=12
 
-URxvt.letterSpace:       true
+URxvt.letterSpace:       false
 
 !! Keybinding
 URxvt.keysym.C-Up:       perl:font-size:increase
@@ -113,18 +113,19 @@ Xcursor.theme:             La Captaine
 !URxvt.pointerBlank: true
 
 rofi.color-enabled: true
-rofi.color-window: #4d32302f, #4d32302f, #0032302f
-rofi.color-normal: #0032302f, #d8dee9, #0032302f, #cc458588, #32302f
-rofi.color-active: #4d1b2b34, #6699cc, #4d343d46, #4d6699cc, #d8dee9
-rofi.color-urgent: #4d1b2b34, #ec5f67, #4d343d46, #4dec5f67, #d8dee9
+rofi.color-window: argb:aa1c1d21, argb:751c1d21, argb:0001c1d21
+rofi.color-normal: argb:001c1d21, #cbcdd2, argb:001c1d21, argb:c2d6d8db, #222222
+rofi.color-active: argb:4d1b2b34, #6699cc, argb:4d343d46, argb:4d6699cc, #d8dee9
+rofi.color-urgent: argb:4d1b2b34, #ec5f67, argb:4d343d46, argb:4dec5f67, #d8dee9
 
 rofi.modi: run,ssh,window
 rofi.separator-style: solid
 rofi.show-icons: true
-rofi.drun-icon-theme: Paper
+rofi.drun-icon-theme: Papirus-Dark
+rofi.font: Inconsolata 12
 rofi.sidebar-mode:    true
-rofi.padding:         10
-rofi.bw:              0
+rofi.padding:         0
+rofi.bw:              10
 rofi.scrollbar-width: 0
 rofi.line-margin:     0
 rofi.lines: 10
