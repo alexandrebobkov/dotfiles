@@ -222,6 +222,11 @@
         <command>rofi -show run</command>
       </action>
     </keybind>
+    <keybind key="C-space">
+      <action name="Execute">
+        <command>rofi -show drun -modi drun</command>
+      </action>
+    </keybind>
     <!-- Other -->
     <keybind key="W-b">
       <action name="ToggleDecorations"/>
