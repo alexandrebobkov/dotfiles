@@ -201,10 +201,9 @@
     </keybind>
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
-      <action name="NextWindow"/>
-    </keybind>
-    <keybind key="A-S-Tab">
-      <action name="PreviousWindow"/>
+      <action name="Execute">
+        <command>rofi -show window -modi window</command>
+      </action>
     </keybind>
     <!-- Keybindings for running applications -->
     <keybind key="W-t">
@@ -219,7 +218,7 @@
     </keybind>
     <keybind key="W-r">
       <action name="Execute">
-        <command>rofi -show run</command>
+        <command>rofi -show run -modi run</command>
       </action>
     </keybind>
     <keybind key="C-space">

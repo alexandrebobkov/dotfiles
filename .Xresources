@@ -113,7 +113,7 @@ Xcursor.theme:             La Captaine
 !URxvt.pointerBlank: true
 
 rofi.color-enabled: true
-rofi.color-window: argb:aa1c1d21, argb:751c1d21, argb:0001c1d21
+rofi.color-window: argb:aa1c1d21, #751c1d21, argb:001c1d21
 rofi.color-normal: argb:001c1d21, #cbcdd2, argb:001c1d21, argb:c2d6d8db, #222222
 rofi.color-active: argb:4d1b2b34, #6699cc, argb:4d343d46, argb:4d6699cc, #d8dee9
 rofi.color-urgent: argb:4d1b2b34, #ec5f67, argb:4d343d46, argb:4dec5f67, #d8dee9
@@ -122,7 +122,7 @@ rofi.modi: run,ssh,window
 rofi.separator-style: solid
 rofi.show-icons: true
 rofi.drun-icon-theme: Papirus-Dark
-rofi.font: Inconsolata 12
+rofi.font: Inconsolata Nerd Font Mono 12
 rofi.sidebar-mode:    true
 rofi.padding:         0
 rofi.bw:              10
@@ -131,3 +131,5 @@ rofi.line-margin:     0
 rofi.lines: 10
 rofi.terminal: urxvt
 rofi.case-sensitive: false
+rofi.run-command: fish -c '{cmd}'
+rofi.run-list-command: 'fish -c functions'
