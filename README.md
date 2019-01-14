@@ -13,6 +13,7 @@
 - [fish](https://github.com/fish-shell/fish-shell)
 - vim
 - volti
+- rofi
 
 ## Requirements
 - git
@@ -21,6 +22,7 @@
 ### Recommended to Install
 - Shutter
 - volti
+- rofi
 
 ### Recommended Fonts
 - [Inconsolata Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Inconsolata/complete)
