@@ -11,9 +11,9 @@ compton &
 # tint2 -- provides panel, systray, clock & taskbar
 tint2 &
 
-# volti -- Volume control for systray
-(sleep 2; volti) &
+# Wireless control for systray
+wicd &
+wicd-client --tray &
 
-# conky
-sleep 3
-#conky &
+# Volume control for systray
+volumeicon &

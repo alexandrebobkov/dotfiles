@@ -122,6 +122,7 @@ launcher_item_app = /usr/share/applications/thunar.desktop
 launcher_item_app = /usr/share/applications/firefox-developer-edition.desktop
 launcher_item_app = /usr/share/applications/urxvt.desktop
 launcher_item_app = /usr/share/applications/visual-studio-code.desktop
+launcher_item_app = /usr/share/applications/steam.desktop
 
 #---------------------------------------------
 # TASKBAR
