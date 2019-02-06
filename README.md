@@ -14,16 +14,20 @@
 - URxvt
 - [fish](https://github.com/fish-shell/fish-shell)
 - vim
-- volti
 - rofi
 
 ## Requirements
 - git
 - [fish](https://github.com/fish-shell/fish-shell)
+- openbox
+- oblogout
+- slock
 
 ### Recommended to Install
+- thunar
 - Shutter
-- volti
+- wicd
+- volumeicon
 - rofi
 
 ### Recommended Fonts
