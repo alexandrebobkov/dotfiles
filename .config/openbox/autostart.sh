@@ -3,7 +3,7 @@
 # Run these programs when openbox starts.
 
 # Use feh for background wallpaper.
-sh ~/.fehbg &
+feh --bg-fill ~/Pictures/bg.png &
 
 # compton -- composition manager
 compton &

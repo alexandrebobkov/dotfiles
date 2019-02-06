@@ -110,7 +110,7 @@ panel_dock = 0
 panel_items = L:TSBC
 
 #------------------------------------------
-#LAUNCHER
+# LAUNCHER
 #------------------------------------------
 launcher_padding = 3 3
 launcher_background_id = 1
@@ -119,10 +119,9 @@ launcher_icon_asb = 100 0 0
 launcher_icon_theme = Papirus-Dark
 launcher_icon_theme_override = 0
 launcher_item_app = /usr/share/applications/thunar.desktop
-launcher_item_app = /usr/share/applications/evolution.desktop
-launcher_item_app = /usr/share/applications/firefox.desktop
-launcher_item_app = /usr/share/applications/rxvt-unicode.desktop
-launcher_item_app = /usr/share/applications/code.desktop
+launcher_item_app = /usr/share/applications/firefox-developer-edition.desktop
+launcher_item_app = /usr/share/applications/urxvt.desktop
+launcher_item_app = /usr/share/applications/visual-studio-code.desktop
 
 #---------------------------------------------
 # TASKBAR
