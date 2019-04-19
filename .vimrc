@@ -35,6 +35,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-syntastic/syntastic'
 Plug 'majutsushi/tagbar'
 Plug 'leafgarland/typescript-vim'
+Plug 'dag/vim-fish'
 
 " Initialize plugin system
 call plug#end()
