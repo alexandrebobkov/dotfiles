@@ -1,26 +1,22 @@
 function fish_greeting
   echo -en (welcome_message) "\n\n"
 
-  set say ""
-
-  if type -q fortune
-    set say (fortune -s)
-  end
-
-  if type -q lolcat
-    set say (echo $say | lolcat)
-  end
-
   echo -en (show_date_info) "\n"
   echo -en (show_net_info) "\n"
-  echo ""
   
-  if type -q lolcat
-    echo $say | lolcat
-  else
+  if type -q fortune
+    set say (fortune -s)
+
+    if type -q lolcat
+      set say (echo $say | lolcat)
+    end
+
+    echo ""
     echo $say
   end
-  
+
+  echo ""
+
   set_color normal
 end
 
@@ -64,7 +60,11 @@ end
 function show_net_info -d "Prints information about network"
   set --local ip ""
 
-  set ip (ip address show | grep -E "inet .* brd .* dynamic" | cut -d " " -f6)
+  if type -q ip
+    set ip (ip address show | grep -E "inet .* brd .* dynamic" | cut -d " " -f6)
+  else
+    set ip (ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}')
+  end
 
   set_color yellow
   echo -en "Net: "
