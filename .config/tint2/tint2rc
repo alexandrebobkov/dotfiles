@@ -120,6 +120,7 @@ launcher_icon_theme = Papirus-Dark
 launcher_icon_theme_override = 1
 launcher_item_app = /usr/share/applications/pcmanfm.desktop
 launcher_item_app = /usr/share/applications/firefox-developer-edition.desktop
+launcher_item_app = /usr/share/applications/chromium.desktop
 launcher_item_app = /usr/share/applications/urxvt.desktop
 launcher_item_app = /usr/share/applications/visual-studio-code.desktop
 launcher_item_app = /usr/share/applications/steam.desktop
