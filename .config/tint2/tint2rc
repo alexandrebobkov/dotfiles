@@ -19,7 +19,7 @@ border_color_pressed = #222222 30
 
 # Background 2: Active task
 rounded = 0
-border_width = 5
+border_width = 4
 border_sides = B
 #background_color = #F0544C 30
 border_color = #F0544C 80
@@ -138,7 +138,7 @@ separator_padding = 0 5
 # TASKBAR
 #---------------------------------------------
 taskbar_mode = multi_desktop
-taskbar_padding = 0 0 0
+taskbar_padding = 10 0 0
 taskbar_background_id = 1
 taskbar_active_background_id = 1
 taskbar_name_background_id = 5
@@ -154,8 +154,8 @@ task_text = 0
 task_width = 40
 task_centered = 1
 urgent_nb_of_blink = 10
-task_padding = 5 5
-task_font = sans 7
+task_padding = 3 3
+task_font = Inconsolata Nerd Font Medium 10
 task_font_color = #FFFFFF 70
 task_active_font_color = #FFFFFF 85
 task_background_id = 3
