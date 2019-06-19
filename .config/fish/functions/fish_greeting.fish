@@ -7,12 +7,13 @@ function fish_greeting
   if type -q fortune
     set say (fortune -s)
 
-    if type -q lolcat
-      set say (echo $say | lolcat)
-    end
-
     echo ""
-    echo $say
+
+    if type -q lolcat
+      echo $say | lolcat
+    else
+      echo $say
+    end
   end
 
   echo ""

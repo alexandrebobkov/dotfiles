@@ -10,8 +10,8 @@ fisher add oh-my-fish/theme-bobthefish
 
 # Install Vim Plug
 echo "Installing Vim Plug"
-curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # Setting up dotfiles
 echo "Setting up dotfiles"
