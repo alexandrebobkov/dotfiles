@@ -4,7 +4,7 @@ function sync_vscode_extensions
   code_install CoenraadS.bracket-pair-colorizer
   code_install dbaeumer.vscode-eslint
   code_install dustinsanders.an-old-hope-theme-vscode
-  code_install eg2.tslint
+  code_install ms-vscode.vscode-typescript-tslint-plugin
   code_install esbenp.prettier-vscode
   code_install mrmlnc.vscode-scss
   code_install PKief.material-icon-theme
