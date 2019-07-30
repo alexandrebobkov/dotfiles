@@ -34,7 +34,7 @@ if type -q exa
 end
 
 if type -q docker
-  alias docklear "docker ps --filter 'status=exited' --filter 'status=created' | grep 'days ago\|weeks ago' | awk '{print $1}' | xargs --no-run-if-empty docker rm"
+  alias docklear "docker ps -q --filter 'status=exited' --filter 'status=created' | xargs docker rm"
 end
 
 set -x NPM_PACKAGES $HOME/.npm-packages
