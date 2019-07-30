@@ -3,7 +3,6 @@
 	<menu id="root-menu" label="Openbox 3.5">
 		<menu id="openbox-menu" label="Applications" execute="/usr/bin/openbox-menu lxde-applications.menu"/>
 		<menu execute="~/.config/openbox/pipemenus/obpipemenu-places ~/" id="places" label="Places"/>
-		<menu execute="~/.config/openbox/pipemenus/obrecent.sh ~/" id="recent" label="Recent Files"/>
 		<menu id="Preferences" label="Preferences">
 			<menu id="root-menu-525118" label="Openbox Config">
 				<item label="Edit autostart">
@@ -71,22 +70,6 @@
 					</action>
 				</item>
 			</menu>
-			<menu id="root-menu-571948" label="tint2 config">
-				<item label="Edit tint2rc">
-					<action name="Execute">
-						<execute>
-							mousepad ~/.config/tint2/tint2rc
-						</execute>
-					</action>
-				</item>
-				<item label="Tint Wizard">
-					<action name="Execute">
-						<execute>
-							tintwizard.py
-						</execute>
-					</action>
-				</item>
-			</menu>
 			<item label="Input Device Preferences">
 				<action name="Execute">
 					<execute>
@@ -108,27 +91,20 @@
 					</execute>
 				</action>
 			</item>
-			<item label="Wallpaper">
-				<action name="Execute">
-					<execute>
-						nitrogen
-					</execute>
-				</action>
-			</item>
-                        <item label="Terminal">
-                                <action name="Execute">
-                                        <execute>
-                                               lxterminal
-                                        </execute>
-                                </action>
-                        </item>
+      <item label="Terminal">
+        <action name="Execute">
+          <execute>
+            urxvt
+          </execute>
+        </action>
+      </item>
 		</menu>
 		<separator/>
 		<item label="Exit">
 			<action name="Execute">
-                        <execute>
-                          oblogout --config=/home/dougmaitelli/.config/openbox/oblogout.conf
-                        </execute>
+        <execute>
+          oblogout --config=/home/dougmaitelli/.config/openbox/oblogout.conf
+        </execute>
 			</action>
 		</item>
 	</menu>
