@@ -2,16 +2,16 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
-  "editor.fontFamily": "'Inconsolata', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'FuraCode Nerd Font Mono', Consolas",
   "editor.formatOnSave": true,
-  "terminal.integrated.fontFamily": "'Inconsolata'",
-  "workbench.colorTheme": "An Old Hope",
+  "terminal.integrated.fontFamily": "'FuraCode Nerd Font Mono'",
+  "workbench.colorTheme": "1984",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.statusBar.feedback.visible": false,
   "workbench.startupEditor": "newUntitledFile",
   "git.confirmSync": false,
   "window.titleBarStyle": "custom",
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "breadcrumbs.enabled": true,
   "files.associations": {

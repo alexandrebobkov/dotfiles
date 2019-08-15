@@ -1,39 +1,39 @@
 ! special
-*.foreground:   #cbcdd2
-*.background:   #1c1d21
-*.cursorColor:  #d6d8db
+*.foreground:   #ffffff
+*.background:   [70]#0d0f31
+*.cursorColor:  #ffffff
 
 ! black
-*.color0:       #1c1d21 
-*.color8:       #babcc4
+*.color0:       #000000 
+*.color8:       #000000
 
 ! red
-*.color1:       #eb3d54
-*.color9:       #eb3d54
+*.color1:       #ff16b0
+*.color9:       #ff16b0
 
 ! green
-*.color2:       #78bd65
-*.color10:      #78bd65
+*.color2:       #b3f361
+*.color10:      #b3f361
 
 ! yellow
-*.color3:       #e5cd52
-*.color11:      #e5cd52
+*.color3:       #ffea16
+*.color11:      #ffea16
 
 ! blue
-*.color4:       #4fb4d8 
-*.color12:      #4fb4d8
+*.color4:       #46bdff 
+*.color12:      #46bdff
 
 ! magenta
-*.color5:       #B85C8A
-*.color13:      #B85C8A
+*.color5:       #f806fa
+*.color13:      #f806fa
 
 ! cyan
-*.color6:       #669c9c
-*.color14:      #669c9c
+*.color6:       #59e1e3
+*.color14:      #6be4e6
 
 ! white
-*.color7:       #cbcdd2 
-*.color15:      #cbcdd2
+*.color7:       #ffffff 
+*.color15:      #ffffff
 
 Xft.dpi: 96
 Xft.antialias: true
@@ -46,7 +46,7 @@ Xft.lcdfilter: lcddefault
 !XTerm*background: bg_color
 !XTerm*foreground: fg_color
 !XTerm*pointerColor: cursor_color
-XTerm*faceName: Inconsolata Nerd Font:Medium
+XTerm*faceName: FuraCode Nerd Font Mono:Regular
 XTerm*faceSize: 10
 XTerm*geometry: 80x25
 
@@ -73,10 +73,10 @@ URxvt*transparent: false
 
 !! Fonts
 
-URxvt*font:              xft:Inconsolata Nerd Font Mono:size=12:minspace=False
-!URxvt*boldFont:          xft:Inconsolata Nerd Font:Bold:size=12
-!URxvt*italicFont:        xft:Inconsolata Nerd Font:Regular:size=12
-!URxvt*boldItalicFont:    xft:Inconsolata Nerd Font:Regular:size=12
+URxvt*font:              xft:FuraCode Nerd Font Mono:size=10:minspace=False
+!URxvt*boldFont:          xft:FuraCode Nerd Font Mono:Bold:size=10
+!URxvt*italicFont:        xft:FuraCode Nerd Font Mono:Regular:size=10
+!URxvt*boldItalicFont:    xft:FuraCode Nerd Font Mono:Regular:size=10
 
 URxvt.letterSpace:       false
 
