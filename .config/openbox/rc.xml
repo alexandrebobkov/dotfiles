@@ -184,7 +184,7 @@
       <action name="MoveResizeTo">
         <width>50%</width>
       </action>
-      <action name="MoveToEdge"><direction>west</direction></action>
+      <action name="MoveToEdgeWest"/>
     </keybind>
     <keybind key="W-Right">
       <action name="UnmaximizeFull"/>
@@ -192,7 +192,7 @@
       <action name="MoveResizeTo">
         <width>50%</width>
       </action>
-      <action name="MoveToEdge"><direction>east</direction></action>
+      <action name="MoveToEdgeEast"/>
     </keybind>    
     <keybind key="W-Up">
       <action name="Maximize"/>
@@ -205,6 +205,11 @@
       <action name="PreviousWindow"/>
     </keybind>
     <!-- Keybindings for running applications -->
+    <keybind key="Super_L">
+      <action name="Execute">
+        <command>jgmenu_run</command>
+      </action>
+    </keybind>
     <keybind key="W-t">
       <action name="Execute">
         <command>~/.config/openbox/urxvtc</command>

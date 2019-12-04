@@ -10,10 +10,7 @@ compton &
 
 # tint2 -- provides panel, systray, clock & taskbar
 tint2 &
-
-# Wireless control for systray
-wicd &
-wicd-client --tray &
+conky -c ~/.config/conky/.conkyrc &
 
 # Volume control for systray
 volumeicon &
