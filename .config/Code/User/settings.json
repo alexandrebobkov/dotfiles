@@ -2,7 +2,7 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
-  "editor.fontFamily": "'FuraCode Nerd Font Mono', Consolas",
+  "editor.fontFamily": "'FiraCode Nerd Font Mono', Consolas",
   "editor.formatOnSave": true,
   "terminal.integrated.fontFamily": "'FuraCode Nerd Font Mono'",
   "workbench.colorTheme": "1984",

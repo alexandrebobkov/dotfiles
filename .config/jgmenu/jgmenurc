@@ -9,8 +9,8 @@ terminal_exec        = urxvt
 terminal_args        = -e
 #monitor             = 0
 
-menu_margin_x        = 20
-menu_margin_y        = 50
+menu_margin_x        = 0
+menu_margin_y        = 45
 menu_width           = 200
 menu_padding_top     = 10
 menu_padding_right   = 2
@@ -38,7 +38,7 @@ item_border          = 0
 
 sep_height           = 5
 
-font                 = Roboto 12px
+font                 = FiraCode Nerd Font Mono 12px
 #font_fallback       = xtg
 icon_size            = 24
 #icon_text_spacing   = 10
@@ -50,39 +50,18 @@ icon_size            = 24
 ## -------------------------------
 ## colors
 ## adapta-maia
-icon_theme           = Papirus-Dark-Maia
+icon_theme           = oomox-MyNeon
 
-color_menu_bg        = #e0e2e3 100
-color_menu_fg        = #2b303b 100
+color_menu_bg        = #0d0f31 70
+color_menu_fg        = #ffffff 100
 
-color_menu_border    = #e0e2e3 0
+color_menu_border    = #0d0f31 30
 
-color_norm_bg        = #e0e2e3 100
-color_norm_fg        = #2b303b 100
+#color_norm_bg        = #e0e2e3 100
+#color_norm_fg        = #2b303b 100
 
-color_sel_bg         = #8fa1b3 100
-color_sel_fg         = #2b303b 100
-#color_sel_border     = #e0e2e3 0
+color_sel_bg         = #f806f1 70
+color_sel_fg         = #ffffff 100
+color_sel_border     = #e0e2e3 0
 
 color_sep_fg         = #e0e2e3 0
-
-## adapta-nokto-maia
-icon_theme           = Papirus-Maia
-
-#color_menu_bg        = #222d32 100
-#color_menu_fg        = #5198BA 100
-
-#color_menu_border    = #222d32 8
-
-#color_norm_bg        = #304048 0
-#color_norm_fg        = #e0e2e3 100
-
-#color_sel_bg         = #8fa1b3 60
-#color_sel_fg         = #e0e2e3 100
-#color_sel_border     = #222d32 8
-
-#color_sep_border     = #e0e2e3 40
-
-## --------------------------------
-
-#csv_name_format     = %n (%g)

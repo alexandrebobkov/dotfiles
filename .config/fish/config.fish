@@ -1,10 +1,6 @@
 set -x EDITOR vim
 set -x VISUAL vim
-set -x BROWSER /usr/bin/firefox
-
-if type -q firefox-developer-edition
-  set -x BROWSER /usr/bin/firefox-developer-edition
-end
+set -x BROWSER /usr/bin/chromium
 
 set fish_color_command        78BD65
 set fish_color_param          EEEEEE

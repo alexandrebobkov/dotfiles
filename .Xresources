@@ -46,7 +46,7 @@ Xft.lcdfilter: lcddefault
 !XTerm*background: bg_color
 !XTerm*foreground: fg_color
 !XTerm*pointerColor: cursor_color
-XTerm*faceName: FuraCode Nerd Font Mono:Regular
+XTerm*faceName: FiraCode Nerd Font Mono:Regular
 XTerm*faceSize: 10
 XTerm*geometry: 80x25
 
@@ -73,10 +73,10 @@ URxvt*transparent: false
 
 !! Fonts
 
-URxvt*font:              xft:FuraCode Nerd Font Mono:size=10:minspace=False
-!URxvt*boldFont:          xft:FuraCode Nerd Font Mono:Bold:size=10
-!URxvt*italicFont:        xft:FuraCode Nerd Font Mono:Regular:size=10
-!URxvt*boldItalicFont:    xft:FuraCode Nerd Font Mono:Regular:size=10
+URxvt*font:              xft:FiraCode Nerd Font Mono:size=10:minspace=False
+!URxvt*boldFont:          xft:FiraCode Nerd Font Mono:Bold:size=10
+!URxvt*italicFont:        xft:FiraCode Nerd Font Mono:Regular:size=10
+!URxvt*boldItalicFont:    xft:FiraCode Nerd Font Mono:Regular:size=10
 
 URxvt.letterSpace:       false
 
@@ -122,7 +122,7 @@ rofi.modi: run,ssh,window
 rofi.separator-style: solid
 rofi.show-icons: true
 rofi.drun-icon-theme: Papirus-Dark
-rofi.font: Inconsolata Nerd Font Mono 12
+rofi.font: FiraCode Nerd Font Mono 10
 rofi.sidebar-mode:    true
 rofi.padding:         0
 rofi.bw:              10

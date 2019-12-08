@@ -6,7 +6,7 @@
 [ -f ~/.fehbg ] && exec ~/.fehbg &
 
 # compton -- composition manager
-compton &
+picom --experimental-backends &
 
 # tint2 -- provides panel, systray, clock & taskbar
 tint2 &
