@@ -6,34 +6,39 @@
 - [Fisher](https://github.com/jorgebucaran/fisher)
 - [bobthefish theme](https://github.com/oh-my-fish/theme-bobthefish)
 - [vim-plug](https://github.com/junegunn/vim-plug)
-- Dotfiles
+- ~/.dotfiles
 
 ## Contains dotfiles for
 - [openbox](https://github.com/danakj/openbox)
 - [tint2](https://gitlab.com/o9000/tint2)
-- [Compton](https://github.com/chjj/compton)
+- [Picom](https://github.com/yshui/picom)
 - URxvt
 - [fish](https://github.com/fish-shell/fish-shell)
 - vim
-- rofi
+- [rofi](https://github.com/davatorium/rofi)
 
 ## Requirements
 - git
 - [fish](https://github.com/fish-shell/fish-shell)
 - [openbox](https://github.com/danakj/openbox)
+- obmenu-generator
 - [tint2](https://gitlab.com/o9000/tint2)
 - [Tryone Compton](https://aur.archlinux.org/packages/compton-tryone-git/) with kawase blur
+- lightdm
+- light-locker
 - oblogout
-- slock
+- xdotool
 
 ### Recommended to Install
-- pcmanfm
-- Shutter
+- jgmenu
+- [fff](https://github.com/dylanaraps/fff)
+- [feh](https://github.com/derf/feh)
+- [Flameshot](https://github.com/lupoDharkael/flameshot)
 - volumeicon
-- rofi
+- [rofi](https://github.com/davatorium/rofi)
 
 ### Recommended
-- [Inconsolata Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Inconsolata/complete)
+- [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode/Regular/complete)
 - [Capitaine Cursors](https://github.com/keeferrourke/capitaine-cursors)
 - [adeos-cores oblogout](https://github.com/arcolinux/arcolinux-oblogout-themes/tree/master/usr/share/themes/adeos-cores/oblogout)
 
