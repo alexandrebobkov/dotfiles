@@ -23,7 +23,6 @@
 - [openbox](https://github.com/danakj/openbox)
 - obmenu-generator
 - [tint2](https://gitlab.com/o9000/tint2)
-- [Tryone Compton](https://aur.archlinux.org/packages/compton-tryone-git/) with kawase blur
 - lightdm
 - light-locker
 - oblogout
