@@ -38,7 +38,7 @@
 - [rofi](https://github.com/davatorium/rofi)
 
 ### Recommended
-- [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode/complete)
+- [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode/Regular/complete)
 - [Capitaine Cursors](https://github.com/keeferrourke/capitaine-cursors)
 - [adeos-cores oblogout](https://github.com/arcolinux/arcolinux-oblogout-themes/tree/master/usr/share/themes/adeos-cores/oblogout)
 
