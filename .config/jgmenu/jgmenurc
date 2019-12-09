@@ -49,8 +49,7 @@ icon_size            = 24
 
 ## -------------------------------
 ## colors
-## adapta-maia
-icon_theme           = oomox-MyNeon
+icon_theme           = Papirus-Dark
 
 color_menu_bg        = #0d0f31 70
 color_menu_fg        = #ffffff 100

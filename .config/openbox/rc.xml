@@ -86,7 +86,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="OnScreenDisplay">
-      <name>sans</name>
+      <name>FiraCode Nerd Font Mono</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>bold</weight>
@@ -95,13 +95,13 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Inconsolata</name>
+      <name>FireCode Nerd Font Mono</name>
       <size>8</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Inconsolata</name>
+      <name>FiraCode Nerd Font Mono</name>
       <size>8</size>
       <weight>Normal</weight>
       <slant>Normal</slant>

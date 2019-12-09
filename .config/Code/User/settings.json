@@ -4,7 +4,7 @@
   },
   "editor.fontFamily": "'FiraCode Nerd Font Mono', Consolas",
   "editor.formatOnSave": true,
-  "terminal.integrated.fontFamily": "'FuraCode Nerd Font Mono'",
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono'",
   "workbench.colorTheme": "1984",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.statusBar.feedback.visible": false,

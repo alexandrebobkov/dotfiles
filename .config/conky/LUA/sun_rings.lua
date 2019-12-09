@@ -371,7 +371,7 @@ function draw_gauge_ring(display, data, value)
     local txt_fg_colour, txt_fg_alpha = data['txt_fg_colour'], data['txt_fg_alpha']
     local movex = txt_radius * math.cos(angle_to_position(graph_start_angle, angle + txt_angle_offset))
     local movey = txt_radius * math.sin(angle_to_position(graph_start_angle, angle + txt_angle_offset))
-    cairo_select_font_face (display, "ubuntu", CAIRO_FONT_SLANT_NORMAL, txt_weight)
+    cairo_select_font_face (display, "FiraCode Nerd Font Mono", CAIRO_FONT_SLANT_NORMAL, txt_weight)
     cairo_set_font_size (display, txt_size)
     cairo_set_source_rgba (display, rgb_to_r_g_b(txt_fg_colour, txt_fg_alpha))
     cairo_move_to (display, x + movex - (txt_size / 2), y + movey + 3)
@@ -384,7 +384,7 @@ function draw_gauge_ring(display, data, value)
     local caption_fg_colour, caption_fg_alpha = data['caption_fg_colour'], data['caption_fg_alpha']
     local tox = graph_radius * (math.cos((graph_start_angle * 2 * math.pi / 360)-(math.pi/2)))
     local toy = graph_radius * (math.sin((graph_start_angle * 2 * math.pi / 360)-(math.pi/2)))
-    cairo_select_font_face (display, "ubuntu", CAIRO_FONT_SLANT_NORMAL, caption_weight);
+    cairo_select_font_face (display, "FiraCode Nerd Font Mono", CAIRO_FONT_SLANT_NORMAL, caption_weight);
     cairo_set_font_size (display, caption_size)
     cairo_set_source_rgba (display, rgb_to_r_g_b(caption_fg_colour, caption_fg_alpha))
     cairo_move_to (display, x + tox + 1, y + toy + 5)
