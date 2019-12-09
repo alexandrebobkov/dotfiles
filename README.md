@@ -11,11 +11,11 @@
 ## Contains dotfiles for
 - [openbox](https://github.com/danakj/openbox)
 - [tint2](https://gitlab.com/o9000/tint2)
-- [Compton](https://github.com/chjj/compton)
+- [Picom](https://github.com/yshui/picom)
 - URxvt
 - [fish](https://github.com/fish-shell/fish-shell)
 - vim
-- rofi
+- [rofi](https://github.com/davatorium/rofi)
 
 ## Requirements
 - git
@@ -24,17 +24,18 @@
 - obmenu-generator
 - [tint2](https://gitlab.com/o9000/tint2)
 - [Tryone Compton](https://aur.archlinux.org/packages/compton-tryone-git/) with kawase blur
+- lightdm
 - light-locker
 - oblogout
 - xdotool
 
 ### Recommended to Install
 - jgmenu
-- fff
-- feh
+- [fff](https://github.com/dylanaraps/fff)
+- [feh](https://github.com/derf/feh)
 - [Flameshot](https://github.com/lupoDharkael/flameshot)
 - volumeicon
-- rofi
+- [rofi](https://github.com/davatorium/rofi)
 
 ### Recommended
 - [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode/complete)
