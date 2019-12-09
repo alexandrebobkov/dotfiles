@@ -21,19 +21,23 @@
 - git
 - [fish](https://github.com/fish-shell/fish-shell)
 - [openbox](https://github.com/danakj/openbox)
+- obmenu-generator
 - [tint2](https://gitlab.com/o9000/tint2)
 - [Tryone Compton](https://aur.archlinux.org/packages/compton-tryone-git/) with kawase blur
+- light-locker
 - oblogout
-- slock
+- xdotool
 
 ### Recommended to Install
-- pcmanfm
-- Shutter
+- jgmenu
+- fff
+- feh
+- [Flameshot](https://github.com/lupoDharkael/flameshot)
 - volumeicon
 - rofi
 
 ### Recommended
-- [Inconsolata Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Inconsolata/complete)
+- [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode/complete)
 - [Capitaine Cursors](https://github.com/keeferrourke/capitaine-cursors)
 - [adeos-cores oblogout](https://github.com/arcolinux/arcolinux-oblogout-themes/tree/master/usr/share/themes/adeos-cores/oblogout)
 
