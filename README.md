@@ -6,7 +6,7 @@
 - [Fisher](https://github.com/jorgebucaran/fisher)
 - [bobthefish theme](https://github.com/oh-my-fish/theme-bobthefish)
 - [vim-plug](https://github.com/junegunn/vim-plug)
-- Dotfiles
+- ~/.dotfiles
 
 ## Contains dotfiles for
 - [openbox](https://github.com/danakj/openbox)
