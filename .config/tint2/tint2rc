@@ -10,23 +10,23 @@
 rounded = 0
 border_width = 1
 border_sides = T
-background_color = #1C1D21 20
+background_color = #0D0F31 20
 border_color = #222222 30
-background_color_hover = #1C1D21 20
+background_color_hover = #0D0F31 20
 border_color_hover = #222222 30
-background_color_pressed = #1C1D21 20
+background_color_pressed = #0D0F31 20
 border_color_pressed = #222222 30
 
 # Background 2: Active task
 rounded = 0
 border_width = 4
 border_sides = B
-#background_color = #F0544C 30
-border_color = #F0544C 80
-background_color_hover = #F0544C 50
-border_color_hover = #F0544C 90
-background_color_pressed = #F0544C 70
-border_color_pressed = #F0544C 100
+#background_color = #FF16B0 30
+border_color = #FF16B0 80
+background_color_hover = #FF16B0 50
+border_color_hover = #FF16B0 90
+background_color_pressed = #FF16B0 70
+border_color_pressed = #FF16B0 100
 
 # Background 3: Default task, Iconified task
 rounded = 0
@@ -87,11 +87,11 @@ border_color_pressed = #222222 30
 rounded = 0
 border_width = 3
 border_sides = B
-#background_color = #F0544C 30
-border_color = #F0544C 80
-background_color_hover = #F0544C 30
+#background_color = #FF16B0 30
+border_color = #FF16B0 80
+background_color_hover = #FF16B0 30
 border_color_hover = #000000 0
-background_color_pressed = #F0544C 30
+background_color_pressed = #FF16B0 30
 border_color_pressed = #000000 0
 
 #---------------------------------------------
@@ -118,11 +118,12 @@ launcher_icon_size = 34
 launcher_icon_asb = 100 0 0
 launcher_icon_theme = Papirus-Dark
 launcher_icon_theme_override = 1
-launcher_item_app = /usr/share/applications/pcmanfm.desktop
+launcher_item_app = /usr/share/applications/jgmenu.desktop
+launcher_item_app = /usr/share/applications/fff.desktop
 launcher_item_app = /usr/share/applications/firefox-developer-edition.desktop
 launcher_item_app = /usr/share/applications/chromium.desktop
 launcher_item_app = /usr/share/applications/urxvt.desktop
-launcher_item_app = /usr/share/applications/visual-studio-code.desktop
+launcher_item_app = /usr/share/applications/code-oss.desktop
 launcher_item_app = /usr/share/applications/steam.desktop
 
 #---------------------------------------------
@@ -155,7 +156,7 @@ task_width = 40
 task_centered = 1
 urgent_nb_of_blink = 10
 task_padding = 3 3
-task_font = Inconsolata Nerd Font Medium 10
+task_font = FiraCode Nerd Font Mono 10
 task_font_color = #FFFFFF 70
 task_active_font_color = #FFFFFF 85
 task_background_id = 3
@@ -191,8 +192,8 @@ battery = 1
 battery_low_status = 10
 battery_low_cmd = notify-send "Battery Low"
 battery_hide = 98
-bat1_font = Inconsolata 10
-bat2_font = Inconsolata 10
+bat1_font = FiraCode Nerd Font Mono 10
+bat2_font = FiraCode Nerd Font Mono 10
 battery_font_color = #FFFFFF 80
 battery_padding = 5 5
 battery_background_id = 8
@@ -201,9 +202,9 @@ battery_background_id = 8
 # CLOCK
 #---------------------------------------------
 time1_format = %H:%M
-time1_font = Inconsolata 14
+time1_font = FiraCode Nerd Font Mono 14
 time2_format = %a %d %B
-time2_font = Inconsolata 10
+time2_font = FiraCode Nerd Font Mono 10
 clock_font_color = #FFFFFF 80
 clock_padding = 5 5
 clock_background_id = 8
