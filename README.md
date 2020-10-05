@@ -1,7 +1,5 @@
 # ~/.dotfiles
 
-![demo](https://i.redd.it/qmogiazm88821.png)
-
 ## This will install
 - [Fisher](https://github.com/jorgebucaran/fisher)
 - [bobthefish theme](https://github.com/oh-my-fish/theme-bobthefish)
